@@ -1,0 +1,57 @@
+&CONTROL
+  calculation='relax',
+  prefix='calc',
+  pseudo_dir='/nfs/slac/g/suncatfs/aidank/scripts/gbrv/',
+  outdir='.',
+  tefield=.true.,
+  dipfield=.true.,
+  tprnfor=.true.,
+  disk_io='none',
+/
+&SYSTEM
+  ibrav=0,
+  celldm(1)=1.8897261245650618d0,
+  nat=8,
+  ntyp=3,
+  ecutwfc=29.3994590327d0,
+  ecutrho=235.195672261d0,
+  nbnd=72,
+  occupations='smearing',
+  smearing='fd',
+  degauss=0.00734986475817d0,
+  input_dft='pbe',
+  edir=3,
+  emaxpos=0.0114675276434d0,
+  eopreg=0.025d0,
+  eamp=0.0d0,
+/
+&ELECTRONS
+  diagonalization='david',
+  conv_thr=9.99581607111e-07,
+  mixing_ndim=15,
+  electron_maxstep=350,
+  mixing_beta=0.1d0,
+  conv_thr=9.99581607111e-07,
+/
+&IONS
+  ion_dynamics='ase3',
+/
+CELL_PARAMETERS
+    5.784133470105959d0     0.000000000000000d0     0.000000000000000d0
+    1.446033367526490d0     2.504603261995799d0     0.000000000000000d0
+    0.000000000000000d0     0.000000000000000d0    19.157428219497511d0
+ATOMIC_SPECIES
+Ag1 107.868d0 Ag.UPF
+N1 14.0067d0 N.UPF
+H1 1.00794d0 H.UPF
+ATOMIC_POSITIONS {crystal}
+Ag1      0.873157848732022d0     0.282860066802304d0     0.371683501481326d0
+Ag1      0.373157848732023d0     0.282860066802304d0     0.371683501481326d0
+Ag1      0.039824515398689d0     0.616193400135637d0     0.494944440994193d0
+Ag1      0.539824515398689d0     0.616193400135637d0     0.494944440994193d0
+N1       0.598589256597630d0     0.639467523476879d0     0.600758519984510d0
+H1       0.564128807198716d0     0.721863424814733d0     0.651251553805432d0
+H1       0.646477501003706d0     0.252883195267081d0     0.597601993462240d0
+H1       0.308531422284791d0     0.867013768003226d0     0.581970721409713d0
+K_POINTS automatic
+2 4 1 0 0 0

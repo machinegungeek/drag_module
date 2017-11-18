@@ -1,0 +1,42 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsf@suncat1015>
+Subject: Job 259882: <Ag_NH2-H_idpp_bs_path.py> in cluster <slac> Done
+
+Job <Ag_NH2-H_idpp_bs_path.py> was submitted from host <suncatls2> by user <aidank> in cluster <slac>.
+Job was executed on host(s) <12*suncat1015>, in queue <suncat2>, as user <aidank> in cluster <slac>.
+</u/if/aidank> was used as the home directory.
+</nfs/slac/g/suncatfs/aidank/NEB_benchmarking/newMethods/IDPPBisectFix/Ag_NH2-H> was used as the working directory.
+Started at Sat Feb 18 05:34:40 2017
+Results reported on Sat Feb 18 07:29:15 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Ag_NH2-H_idpp_bs_path.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   80962.26 sec.
+    Max Memory :                                 4307 MB
+    Average Memory :                             432.43 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   37332 MB
+    Max Processes :                              12
+    Max Threads :                                12
+    Run time :                                   6875 sec.
+    Turnaround time :                            27459 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <Ag_NH2-H_BS_fix_idpp.err> for stderr output of this job.
+
